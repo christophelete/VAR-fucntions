@@ -4,6 +4,6 @@
 
 -The OLSregression function utilizes ordinary-least squares (OLS) to estimate the regression. 
 
--The estVAR function is based on OLS but for vectors with its own lags (autoregressive components) as explanatory variables, allowing to perform the estimation for multiple equations simultaneously, while also allowing the interactive effects between equations
+-The estVAR function is based on multivariate least squares and used for vectors with theirs own lags (autoregressive components) as explanatory variables, allowing to perform the estimation for multiple equations simultaneously, while also allowing the interactive effects between equations
 
 -The estVAR_with_exo is simply the estVAR function, but also allows user-specified exogenous variable(s) for greater flexibility
